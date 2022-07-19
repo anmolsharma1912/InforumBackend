@@ -1,5 +1,8 @@
 name: .NET
 
+env:
+  RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+
 on:
   push:
     branches: [ "main" ]
